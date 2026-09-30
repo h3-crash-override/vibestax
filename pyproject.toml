@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "vibestax"
+version = "0.1.0"
+description = "Apache 2.0 web technology fingerprinting library — built for the age of AI-generated applications"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.9"
+authors = [{name = "Shane Quinlan", email = "shane.quinlan@horizon3.ai"}]
+keywords = ["web", "fingerprinting", "security", "pentest", "technology-detection"]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Information Technology",
+    "Topic :: Security",
+]
+dependencies = []  # zero required deps — playwright is optional
+
+[project.optional-dependencies]
+playwright = ["playwright>=1.40.0"]
+dev = ["pytest>=7.0", "pytest-asyncio>=0.21"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vibestax*"]
