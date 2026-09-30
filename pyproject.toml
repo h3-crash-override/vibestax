@@ -9,7 +9,7 @@ description = "Apache 2.0 web technology fingerprinting library — built for th
 readme = "README.md"
 license = {text = "Apache-2.0"}
 requires-python = ">=3.9"
-authors = [{name = "Shane Quinlan", email = "h3-crash-override@users.noreply.github.com"}]
+authors = [{name = "Shane Quinlan"}]
 keywords = ["web", "fingerprinting", "security", "pentest", "technology-detection"]
 classifiers = [
     "License :: OSI Approved :: Apache Software License",
