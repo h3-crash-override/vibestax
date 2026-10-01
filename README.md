@@ -120,7 +120,3 @@ result = detect(url=url, html=html, rules=ALL_RULES + MY_EXTRA_RULES)
 Apache 2.0. See [LICENSE](LICENSE).
 
 vibestax has zero required dependencies. The `playwright` extra adds `playwright>=1.40.0` (Apache 2.0).
-
-## Why not WAD or Wappalyzer?
-
-All well-starred Python web fingerprinting libraries are GPL-3.0, which makes them unsuitable for embedding in commercial products without triggering copyleft obligations. vibestax is Apache 2.0 by design, written from scratch with no GPL code or data.
